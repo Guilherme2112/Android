@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="acessar">Acessar</string>
+    <string name="activity2text">Activity 2</string>
+    <string name="voltar">Voltar</string>
+    <string name="fiap">FIAP</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="feminino">Feminino</string>
+    <string name="masculino">Masculino</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="gravar_dados">Gravar Dados</string>
+    <string name="dados_da_conta">FIAP Notas - Dados da Conta</string>
+    <string name="excluir_dados">Excluir Dados</string>
+    <string name="carregar_dados">Carregar Dados</string>
+    <string name="verificar_dados">Verificar Dados</string>
+    <string name="gravar_arquivo">Gravar Arquivo</string>
+    <string name="ler_arquivo">Ler Arquivo</string>
+    <string name="excluir_arquivo">Excluir Arquivo</string>
+    <string name="fechar_e_retornar">Fechar e Retornar</string>
+    <string name="primeiro_acesso">Primeiro Acesso</string>
+    <string name="cadastro_nok">Preencha os dados de cadastro corretamente.</string>
+    <string name="cadastro_ok">Dados cadastrados com sucesso!</string>
+    <string name="dados_nok">Dados não existem!</string>
+    <string name="dados_ok">Dados existentes!</string>
+    <string name="arquivo_ok">Arquivo garvado com sucesso!</string>
+    <string name="arquivo_excluido">Arquivo excluído com sucesso!</string>
+    <string name="exclusao_ok">Dados excluídos com sucesso!</string>
+    <string name="msgPreenchmento_NOk">Preenhca os dados corretamente</string>
+    <string name="msgSucesso">Sucesso!</string>
+</resources>
