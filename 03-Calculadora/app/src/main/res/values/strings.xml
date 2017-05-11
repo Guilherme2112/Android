@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">02-Calculadora</string>
+    <string name="zero">0</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="asterisk">*</string>
+    <string name="div">/</string>
+    <string name="limpar">C</string>
+</resources>

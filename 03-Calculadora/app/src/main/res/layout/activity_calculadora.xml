@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bd"
+    tools:context="guilherme.a02_calculadora.calculadora">
+
+
+    <EditText
+        android:id="@+id/val1"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:digits="0123456789,-"
+        android:ems="10"
+        android:hint="@string/zero"
+        android:inputType="numberDecimal"
+        android:textAlignment="textEnd"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/val2"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/val1"
+        android:layout_marginTop="59dp"
+        android:background="@android:color/transparent"
+        android:digits="0123456789,-"
+        android:ems="10"
+        android:hint="@string/zero"
+        android:inputType="numberDecimal"
+        android:textAlignment="viewEnd"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="@style/AppTheme.bkgnd"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/val2"
+        android:layout_marginTop="97dp"
+        android:onClick="soma"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/btnSub"
+        style="@style/AppTheme.bkgnd"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAdd"
+        android:layout_alignBottom="@+id/btnAdd"
+        android:layout_toEndOf="@+id/btnAdd"
+        android:onClick="sub"
+        android:text="@string/sub" />
+
+    <Button
+        android:id="@+id/btnVezes"
+        style="@style/AppTheme.bkgnd"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSub"
+        android:layout_alignBottom="@+id/btnSub"
+        android:layout_toEndOf="@+id/btnSub"
+        android:onClick="vezes"
+        android:text="@string/asterisk" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        style="@style/AppTheme.bkgnd"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnVezes"
+        android:layout_alignBottom="@+id/btnVezes"
+        android:layout_alignEnd="@+id/val2"
+        android:onClick="div"
+        android:text="@string/div" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        style="@style/AppTheme.below"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:onClick="limpar"
+        android:text="@string/limpar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnAdd"
+        android:background="@color/red"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtResultado"
+            style="@style/AppTheme.below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLimpar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:hint="@string/zero"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+
